@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario de Reclamos Docentes - UTEPSA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<img src="logo_utepsa.png" alt="Logo UTEPSA" class="logo">
+<h1>Universidad Tecnológica Privada de Santa Cruz</h1>
+<p>Educar para emprender y servir</p>
+</header>
+
+<div class="container">
+<h2>Formulario de Reclamos Docentes</h2>
+<form>
+<label for="nombre">Nombre Completo:</label>
+<input type="text" id="nombre" name="nombre" required>
+
+<label for="correo">Correo Electrónico:</label>
+<input type="email" id="correo" name="correo" required>
+
+<label for="carrera">Carrera:</label>
+<select id="carrera" name="carrera" required>
+<option value="">Seleccione su carrera</option>
+<option value="Ingeniería en Sistemas">Ingeniería en Sistemas</option>
+<option value="Derecho">Derecho</option>
+<option value="Administración de Empresas">Administración de Empresas</option>
+<option value="Contaduría Pública">Contaduría Pública</option>
+<!-- aggr mas opciones -->
+</select>
+
+<label for="docente">Nombre del Docente:</label>
+<input type="text" id="docente" name="docente" required>
+
+<label for="motivo">Motivo del Reclamo:</label>
+<textarea id="motivo" name="motivo" rows="5" required></textarea>
+
+<button type="submit">Enviar Reclamo</button>
+</form>
+</div>
+
+<footer>
+&copy; 2025 UTEPSA - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
